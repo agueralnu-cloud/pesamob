@@ -1,0 +1,1 @@
+this is the html and cssfor application designed to help user to record expenses and balance

@@ -1,0 +1,146 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+header {
+    text-align: center;
+    background-color: #1f4e79;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #1f4e79;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #1f4e79;
+}
+
+
+
+button {
+    background-color: #1f4e79;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+    
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #163a5c;
+}
+
+
+
+table {
+    width: 100%;
+
+    
+    border-collapse: collapse;
+}
+
+
+
+.expenses-section th,
+.expenses-section td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+
+
+.expenses-section th {
+    background-color: #1f4e79;
+    color: white
+.expenses-section tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.expenses-section tbody tr:hover {
+    background-color: #dceaf7;
+}
+
+
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.video-section {
+    text-align: center;
+}
+
+.video-section iframe {
+    max-width: 100%;
+}
+
+
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    .video-section iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
